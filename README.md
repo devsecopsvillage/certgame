@@ -9,5 +9,7 @@ Abaixo você irá encontrar os links mais importantes para o que é necessário 
 ## Sumário
 
 [1. Regras](regras.md)
+
 [2. Tabuleiro](tabuleiro/README.md)
+
 [3. Perguntas](perguntas/README.md)
