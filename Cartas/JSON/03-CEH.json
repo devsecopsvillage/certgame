@@ -1,0 +1,233 @@
+[
+    {
+        "indice": 1,
+        "enunciado": "Qual tipo de firewall é adequado para proteger contra ataques de injeção SQL?",
+        "opcoes": {
+            "a": "Firewall de aplicação web",
+            "b": "Firewall de pacotes",
+            "c": "Firewall de hardware",
+            "d": "Firewall com estado"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 2,
+        "enunciado": "Qual dos seguintes pode ser designado como 'Wireshark para CLI'?",
+        "opcoes": {
+            "a": "nessus",
+            "b": "John the Ripper",
+            "c": "ethereal",
+            "d": "tcpdump"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 3,
+        "enunciado": "Qual ferramenta você deve escolher para examinar ligações entre dados usando gráficos e análise de links?",
+        "opcoes": {
+            "a": "Wireshark",
+            "b": "Paladir",
+            "c": "Metasploit",
+            "d": "Maltego"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 4,
+        "enunciado": "Que tipo de ataque envolve consultas interativas que escolhem textos simples subsequentes com base em criptografias anteriores?",
+        "opcoes": {
+            "a": "Ataque de texto simples conhecido",
+            "b": "Ataque de texto simples escolhido",
+            "c": "Ataque apenas com texto cifrado",
+            "d": "Ataque adaptativo de texto simples escolhido"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 5,
+        "enunciado": "Qual ataque injeta os caracteres “Carriage Return” e “Line Feed” na entrada do usuário para enganar o servidor ou aplicativo da Web?",
+        "opcoes": {
+            "a": "CRLF Injection",
+            "b": "Server-Side JS Injection",
+            "c": "HTML Injection",
+            "d": "Log Injection"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 6,
+        "enunciado": "Qual das opções não está nos Padrões de Segurança de Dados PCI?",
+        "opcoes": {
+            "a": "Rotacionar funcionários que lidam com cartões anualmente.",
+            "b": "Criptografar dados de cartões em redes públicas.",
+            "c": "Não usar senhas padrão do fornecedor.",
+            "d": "Proteger dados armazenados do titular do cartão"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 7,
+        "enunciado": "Qual método é mais adequado para extração de chaves criptográficas após falhas com métodos de software?",
+        "opcoes": {
+            "a": "Análise de frequência",
+            "b": "Truques e enganação",
+            "c": "Força bruta",
+            "d": "One-Time Pad"
+        },
+        "resposta": "b"
+    },
+    {
+        "indice": 8,
+        "enunciado": "Qual ataque de injeção SQL permite ao atacante desfigurar páginas, modificar ou adicionar dados ao banco de dados?",
+        "opcoes": {
+            "a": "Acesso não autorizado a uma aplicação",
+            "b": "Perda de disponibilidade de dados",
+            "c": "Integridade de dados comprometida",
+            "d": "Divulgação de informações"
+        },
+        "resposta": "c"
+    },
+    {
+        "indice": 9,
+        "enunciado": "Qual padrão sem fio oferece largura de banda de até 54 Mbit/s e opera em torno do espectro de frequência de 5 GHz?",
+        "opcoes": {
+            "a": "802.11n",
+            "b": "802.11g",
+            "c": "802.11i",
+            "d": "802.11a"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 10,
+        "enunciado": "Qual porta UDP é geralmente usada pelo protocolo Network Time Protocol (NTP)?",
+        "opcoes": {
+            "a": "177",
+            "b": "19",
+            "c": "161",
+            "d": "123"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 11,
+        "enunciado": "Qual método protege melhor informações confidenciais em um laptop contra roubo durante viagens?",
+        "opcoes": {
+            "a": "Senha do BIOS",
+            "b": "Pastas ocultas",
+            "c": "Criptografia de disco completo",
+            "d": "Arquivos protegidos por senha"
+        },
+        "resposta": "c"
+    },
+    {
+        "indice": 12,
+        "enunciado": "Qual termo descreve uma rede de dispositivos comprometidos e controlados por terceiros após violação de segurança?",
+        "opcoes": {
+            "a": "Spear Phishing",
+            "b": "Rootkit",
+            "c": "Spambot",
+            "d": "Botnet"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 13,
+        "enunciado": "Que tipo de firewall bloqueia tráfego IRC pela porta 80/TCP, mas permite tráfego HTTP de saída sem restrições?",
+        "opcoes": {
+            "a": "Circuito",
+            "b": "Stateful",
+            "c": "Aplicação",
+            "d": "Filtragem de pacotes"
+        },
+        "resposta": "c"
+    },
+    {
+        "indice": 14,
+        "enunciado": "Que tipo de ataque SQLi utiliza perguntas Verdadeiro/Falso para explorar vulnerabilidades?",
+        "opcoes": {
+            "a": "SQLi específico para DMS",
+            "b": "SQLi composto",
+            "c": "SQLi clássico",
+            "d": "SQLi cego"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 15,
+        "enunciado": "Qual regulamentação estabelece controles de segurança e privacidade para sistemas de informação federais dos EUA, exceto os de segurança nacional?",
+        "opcoes": {
+            "a": "EU Safe Harbor",
+            "b": "PCI-DSS",
+            "c": "NIST-800-53",
+            "d": "HIPAA"
+        },
+        "resposta": "c"
+    },
+    {
+        "indice": 16,
+        "enunciado": "Qual das seguintes não se aplica ao IPsec?",
+        "opcoes": {
+            "a": "Usa troca de chaves",
+            "b": "Trabalha na Camada de Enlace de Dados",
+            "c": "Criptografa os payloads",
+            "d": "Fornece autenticação"
+        },
+        "resposta": "b"
+    },
+    {
+        "indice": 17,
+        "enunciado": "Que método de engenharia social envolve ligar para funcionários, fingindo ser suporte técnico, para obter dados confidenciais ou credenciais?",
+        "opcoes": {
+            "a": "Quid Pro Quo",
+            "b": "Tailgating",
+            "c": "Engenharia Social Reversa",
+            "d": "Elicitação"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 18,
+        "enunciado": "Qual protocolo da camada 3 permite a criptografia ponta a ponta da conexão?",
+        "opcoes": {
+            "a": "IPsec",
+            "b": "SFTP",
+            "c": "SSL",
+            "d": "FTPS"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 19,
+        "enunciado": "Qual das seguintes opções do Nmap você usará se desejar escanear menos portas do que o padrão?",
+        "opcoes": {
+            "a": "-T",
+            "b": "-sP",
+            "c": "-p",
+            "d": "-F"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 20,
+        "enunciado": "Qual medida impede o acesso não autorizado a redes locais e ativos de informação por dispositivos sem fio?",
+        "opcoes": {
+            "a": "WIPS",
+            "b": "AISS",
+            "c": "NIDS",
+            "d": "HIDS"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 21,
+        "enunciado": "Qual técnica permite a um hacker identificar os sistemas operacionais usados em computadores de uma rede-alvo?",
+        "opcoes": {
+            "a": "Varredura SSDP",
+            "b": "Varredura UDP",
+            "c": "Banner Grabbing",
+            "d": "Varredura IDLE/IPID"
+        },
+        "resposta": "c"
+    }
+]

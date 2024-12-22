@@ -1,0 +1,469 @@
+{
+  "1": {
+    "enunciado": "Qual dos seguintes termos refere-se à Camada de Rede do modelo OSI?",
+    "opções": {
+      "a": "Camada 2",
+      "b": "Camada 5",
+      "c": "Camada 3",
+      "d": "Camada 4"
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "2": {
+    "enunciado": "Qual resposta se refere a um identificador único de 48 bits, também conhecido como endereço de rede físico?",
+    "opções": {
+      "a": "SSID",
+      "b": "IP",
+      "c": "GUID",
+      "d": "MAC"
+    },
+    "resposta": [
+      "d"
+    ]
+  },
+  "3": {
+    "enunciado": "O termo \"Camada de Apresentação\" refere-se à:",
+    "opções": {
+      "a": "Camada 7 do modelo OSI",
+      "b": "Camada 5 do modelo OSI",
+      "c": "Camada 6 do modelo OSI",
+      "d": "Camada 4 do modelo OSI"
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "4": {
+    "enunciado": "No modelo OSI, a unidade de dados de protocolo na Camada Física é conhecida como:",
+    "opções": {
+      "a": "Segmento",
+      "b": "Quadro (Frame)",
+      "c": "Bit",
+      "d": "Pacote (Packet)",
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "5": {
+    "enunciado": "Qual camada do modelo OSI é responsável por abrir, fechar e manter conexões entre aplicativos?",
+    "opções": {
+      "a": "Camada de Rede",
+      "b": "Camada de Enlace de Dados",
+      "c": "Camada de Aplicação",
+      "d": "Camada de Sessão"
+    },
+    "resposta": [
+      "d"
+    ]
+  },
+  "6": {
+    "enunciado": "Qual dos dispositivos listados abaixo é frequentemente referido como um switch de múltiplas camadas?",
+    "opções": {
+      "a": "Roteador",
+      "b": "Conversor de Mídia",
+      "c": "Ponte (Bridge)",
+      "d": "Transceptor"
+    },
+    "resposta": [
+      "a"
+    ]
+  },
+  "7": {
+    "enunciado": "No modelo OSI, a Camada de Enlace de Dados também é conhecida como:",
+    "opções": {
+      "a": "Camada 3",
+      "b": "Camada 1",
+      "c": "Camada 5",
+      "d": "Camada 2"
+    },
+    "resposta": [
+      "d"
+    ]
+  },
+  "8": {
+    "enunciado": "No modelo OSI, a unidade de dados de protocolo UDP da Camada 4 é chamada de:",
+    "opções": {
+      "a": "Bit",
+      "b": "Quadro (Frame)",
+      "c": "Pacote (Packet)",
+      "d": "Datagrama"
+    },
+    "resposta": [
+      "d"
+    ]
+  },
+  "9": {
+    "enunciado": "A Camada 2 do modelo OSI também é referida como:",
+    "opções": {
+      "a": "Camada de Transporte",
+      "b": "Camada de Rede",
+      "c": "Camada de Enlace de Dados",
+      "d": "Camada Física"
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "10": {
+    "enunciado": "A tradução de formato de dados, compressão de dados e criptografia/descriptografia de dados ocorre na:",
+    "opções": {
+      "a": "Camada de Aplicação do modelo OSI",
+      "b": "Camada de Apresentação do modelo OSI",
+      "c": "Camada de Sessão do modelo OSI",
+      "d": "Camada de Transporte do modelo OSI"
+    },
+    "resposta": [
+      "b"
+    ]
+  },
+  "11": {
+    "enunciado": "Qual das seguintes respostas refere-se à Camada Física do modelo OSI?",
+    "opções": {
+      "a": "Camada de Transporte",
+      "b": "Camada Física",
+      "c": "Camada de Aplicação",
+      "d": "Camada de Enlace de Dados"
+    },
+    "resposta": [
+      "b"
+    ]
+  },
+  "12": {
+    "enunciado": "O termo \"Camada de Aplicação\" refere-se a:",
+    "opções": {
+      "a": "Camada 6 do modelo OSI",
+      "b": "Camada 4 do modelo OSI",
+      "c": "Camada 7 do modelo OSI",
+      "d": "Camada 5 do modelo OSI"
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "13": {
+    "enunciado": "No modelo OSI, uma NIC reside na:",
+    "opções": {
+      "a": "Camada Física",
+      "b": "Camada de Enlace de Dados",
+      "c": "Camada de Rede",
+      "d": "Camada de Transporte"
+    },
+    "resposta": [
+      "b"
+    ]
+  },
+  "14": {
+    "enunciado": "Qual das camadas listadas abaixo é conhecida como Camada de Sessão?",
+    "opções": {
+      "a": "Camada 6",
+      "b": "Camada 3",
+      "c": "Camada 5",
+      "d": "Camada 2"
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "15": {
+    "enunciado": "Qual dos seguintes dispositivos reside na Camada de Rede do modelo OSI?",
+    "opções": {
+      "a": "Switch",
+      "b": "Repetidor",
+      "c": "Ponte (Bridge)",
+      "d": "Roteador"
+    },
+    "resposta": [
+      "d"
+    ]
+  },
+  "16": {
+    "enunciado": "No modelo OSI, a unidade de dados da Camada 2 é conhecida como:",
+    "opções": {
+      "a": "Bit",
+      "b": "Quadro (Frame)",
+      "c": "Pacote (Packet)",
+      "d": "Segmento",
+      "e": "Datagrama"
+    },
+    "resposta": [
+      "b"
+    ]
+  },
+  "17": {
+    "enunciado": "Qual camada OSI possibilita a interação direta entre o usuário final e a rede?",
+    "opções": {
+      "a": "Camada 5",
+      "b": "Camada 1",
+      "c": "Camada 7",
+      "d": "Camada 3"
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "18": {
+    "enunciado": "No modelo OSI, a unidade de dados da Camada de Rede é chamada de:",
+    "opções": {
+      "a": "Bit",
+      "b": "Quadro (Frame)",
+      "c": "Pacote (Packet)",
+      "d": "Segmento",
+      "e": "Datagrama"
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "19": {
+    "enunciado": "Qual dos seguintes refere-se a um protocolo comum da Camada 2 do OSI?",
+    "opções": {
+      "a": "HTTP",
+      "b": "IP",
+      "c": "ARP",
+      "d": "ICMP"
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "20": {
+    "enunciado": "Qual das seguintes respostas refere-se à Camada 6 do modelo OSI?",
+    "opções": {
+      "a": "Camada de Enlace de Dados",
+      "b": "Camada de Aplicação",
+      "c": "Camada de Apresentação",
+      "d": "Camada de Sessão"
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "21": {
+    "enunciado": "No modelo OSI, a unidade de dados da Camada 4 TCP é referida como:",
+    "opções": {
+      "a": "Bit",
+      "b": "Quadro (Frame)",
+      "c": "Pacote (Packet)",
+      "d": "Segmento",
+    },
+    "resposta": [
+      "d"
+    ]
+  },
+  "22": {
+    "enunciado": "Qual das respostas abaixo refere-se à Camada Física do modelo OSI?",
+    "opções": {
+      "a": "Camada 2",
+      "b": "Camada 7",
+      "c": "Camada 1",
+      "d": "Camada 4"
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "23": {
+    "enunciado": "A Camada 7 do modelo OSI também é conhecida como:",
+    "opções": {
+      "a": "Camada de Transporte",
+      "b": "Camada de Apresentação",
+      "c": "Camada de Sessão",
+      "d": "Camada de Aplicação"
+    },
+    "resposta": [
+      "d"
+    ]
+  },
+  "24": {
+    "enunciado": "Qual das respostas abaixo refere-se à Camada 5 do modelo OSI?",
+    "opções": {
+      "a": "Camada de Sessão",
+      "b": "Camada de Aplicação",
+      "c": "Camada de Transporte",
+      "d": "Camada de Apresentação"
+    },
+    "resposta": [
+      "a"
+    ]
+  },
+  "25": {
+    "enunciado": "Qual é o nome da Camada 3 no modelo OSI?",
+    "opções": {
+      "a": "Camada de Rede",
+      "b": "Camada de Enlace de Dados",
+      "c": "Camada de Sessão",
+      "d": "Camada de Transporte"
+    },
+    "resposta": [
+      "a"
+    ]
+  },
+  "26": {
+    "enunciado": "Qual das respostas abaixo refere-se à Camada 4 do modelo OSI?",
+    "opções": {
+      "a": "Camada de Rede",
+      "b": "Camada de Enlace de Dados",
+      "c": "Camada de Sessão",
+      "d": "Camada de Transporte"
+    },
+    "resposta": [
+      "d"
+    ]
+  },
+  "27": {
+    "enunciado": "Qual resposta se refere a um dispositivo de segurança que monitora e controla o tráfego de rede com base em regras de segurança predefinidas?",
+    "opções": {
+      "a": "Servidor Proxy",
+      "b": "Scanner de Vulnerabilidades",
+      "c": "Firewall",
+      "d": "Filtro de Conteúdo"
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "28": {
+    "enunciado": "Qual das respostas abaixo ilustra a diferença entre uma resposta de segurança passiva e ativa?",
+    "opções": {
+      "a": "NIPS vs. UTM",
+      "b": "IDS vs. IPS",
+      "c": "UTM vs. Firewall",
+      "d": "HIPS vs. NIPS"
+    },
+    "resposta": [
+      "b"
+    ]
+  },
+  "29": {
+    "enunciado": "Uma solução de hardware ou software que gerencia a distribuição de cargas de trabalho entre múltiplos recursos de computação é chamada de:",
+    "opções": {
+      "a": "Switch de rede",
+      "b": "Balanceador de Carga",
+      "c": "Servidor Proxy",
+      "d": "Gerenciador de Largura de Banda"
+    },
+    "resposta": [
+      "b"
+    ]
+  },
+  "30": {
+    "enunciado": "Na rede de computadores, um sistema ou aplicativo que atua como intermediário entre outro computador e a Internet é chamado de:": {
+      "a": "Ponte (Bridge)",
+      "b": "Proxy",
+      "c": "Servidor",
+      "d": "Gateway"
+    },
+    "resposta": [
+      "b"
+    ]
+  },
+  "31": {
+    "enunciado": "Um appliance de armazenamento dedicado que pode ser adicionado a uma rede local é conhecido como:",
+    "opções": {
+      "a": "SAN",
+      "b": "NAS",
+      "c": "SSD",
+      "d": "DAS"
+    },
+    "resposta": [
+      "b"
+    ]
+  },
+  "32": {
+    "enunciado": "Uma rede local dedicada composta por dispositivos que fornecem acesso a dados é chamada de:",
+    "opções": {
+      "a": "SDN",
+      "b": "NAS",
+      "c": "iSCSI",
+      "d": "SAN"
+    },
+    "resposta": [
+      "d"
+    ]
+  },
+  "33": {
+    "enunciado": "Um WAP é um tipo específico de AP que permite que dispositivos com capacidade Wi-Fi se conectem a uma rede cabeada.",
+    "opções": {
+      "a": "Verdadeiro",
+      "b": "Falso"
+    },
+    "resposta": [
+      "a"
+    ]
+  },
+  "34": {
+    "enunciado": "Qual dispositivo de infraestrutura de rede permite gerenciamento centralizado de WAPs?",
+    "opções": {
+      "a": "Switch de múltiplas camadas",
+      "b": "Hub ativo",
+      "c": "Ponte de rede",
+      "d": "Controlador LAN sem fio"
+    },
+    "resposta": [
+      "d"
+    ]
+  },
+  "35": {
+    "enunciado": "Um dos principais benefícios fornecidos por uma CDN é a melhoria do:",
+    "opções": {
+      "a": "Tempo de carregamento de conteúdo",
+      "b": "Segurança do host",
+      "c": "Processo de gerenciamento de usuários",
+      "d": "Capacidade de armazenamento da rede"
+    },
+    "resposta": [
+      "a"
+    ]
+  },
+  "36": {
+    "enunciado": "Um sistema que usa uma rede pública para criar conexões privadas criptografadas entre locais remotos é referido como:",
+    "opções": {
+      "a": "WWAN",
+      "b": "VPN",
+      "c": "PAN",
+      "d": "VLAN"
+    },
+    "resposta": [
+      "b"
+    ]
+  },
+  "37": {
+    "enunciado": "Qual resposta se refere a uma solução que permite aos administradores de rede priorizar certos tipos de tráfego?",
+    "opções": {
+      "a": "NAC",
+      "b": "QoS",
+      "c": "NAT",
+      "d": "UTM"
+    },
+    "resposta": [
+      "b"
+    ]
+  },
+  "38": {
+    "enunciado": "Um campo em um pacote IP que especifica quantos saltos mais um pacote pode viajar antes de ser descartado é conhecido como:",
+    "opções": {
+      "a": "ToS",
+      "b": "OPT",
+      "c": "TTL",
+      "d": "MTU"
+    },
+    "resposta": [
+      "c"
+    ]
+  },
+  "39": {
+    "enunciado": "Qual resposta se refere a uma solução que substitui as funcionalidades tradicionais de hardware de rede por software via virtualização?",
+    "opções": {
+      "a": "SDN",
+      "b": "VM",
+      "c": "SVI",
+      "d": "NFV"
+    },
+    "resposta": [
+      "d"
+    ]
+  }
+}

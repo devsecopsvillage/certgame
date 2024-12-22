@@ -11,7 +11,7 @@ Abaixo você encontrará os links mais importantes para iniciar sua partida em c
 
 [2. Tabuleiro](tabuleiro.png)
 
-[3. Perguntas](cartinhas)
+[3. Perguntas](Cartas\PDFs)
 
 ## Impressão
 ### Tabuleiro

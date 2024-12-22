@@ -1,0 +1,275 @@
+[
+  {
+    "index": 1,
+    "question": "Qual resposta descreve controles de segurança para deter, detectar e prevenir acesso não autorizado, roubo ou danos a ativos físicos?",
+    "options": {
+      "a": "Controles de segurança gerencial",
+      "b": "Controles de segurança física",
+      "c": "Controles de segurança técnica",
+      "d": "Controles de segurança operacional"
+    },
+    "answers": [
+      "b"
+    ]
+  },
+  {
+    "index": 2,
+    "question": "Qual sigla descreve os princípios fundamentais da segurança da informação?",
+    "options": {
+      "a": "PKI",
+      "b": "AAA",
+      "c": "GDPR",
+      "d": "CIA"
+    },
+    "answers": [
+      "d"
+    ]
+  },
+  {
+    "index": 3,
+    "question": "Qual termo descreve o processo de identificar diferenças entre a postura de segurança atual e a desejada de uma organização?",
+    "options": {
+      "a": "Exercício de simulação",
+      "b": "Análise de lacunas",
+      "c": "Treinamento de conscientização em segurança",
+      "d": "Avaliação de riscos"
+    },
+    "answers": [
+      "b"
+    ]
+  },
+  {
+    "index": 4,
+    "question": "Qual abordagem de segurança do Plano de Controle de Confiança Zero considera identidade, segurança do dispositivo, condições de rede e contexto para decisões dinâmicas de acesso?",
+    "options": {
+      "a": "Confiança implícita",
+      "b": "Monitoramento e registro",
+      "c": "Identidade adaptativa",
+      "d": "Microsegmentação"
+    },
+    "answers": [
+      "c"
+    ]
+  },
+  {
+    "index": 5,
+    "question": "O que é uma honeynet no contexto de cibersegurança?",
+    "options": {
+      "a": "Uma rede de IDSs",
+      "b": "Uma rede de honeypots",
+      "c": "Uma rede de hosts infectados",
+      "d": "Uma rede de IPSs"
+    },
+    "answers": [
+      "b"
+    ]
+  },
+  {
+    "index": 6,
+    "question": "Qual das respostas abaixo se refere a um exemplo de honeynet?",
+    "options": {
+      "a": "Uma rede de servidores falsos",
+      "b": "Uma rede de bancos de dados falsos",
+      "c": "Uma rede de compartilhamentos de arquivos falsos",
+      "d": "Todas as opções"
+    },
+    "answers": [
+      "d"
+    ]
+  },
+  {
+    "index": 7,
+    "question": "Um honeyfile pode ser usado para:",
+    "options": {
+      "a": "Atrair atacantes cibernéticos",
+      "b": "Acionar alertas quando acessado",
+      "c": "Monitorar a atividade na rede",
+      "d": "Todas as opções acima"
+    },
+    "answers": [
+      "d"
+    ]
+  },
+  {
+    "index": 8,
+    "question": "O que é um honeytoken?",
+    "options": {
+      "a": "Um arquivo isca projetado para atrair atacantes",
+      "b": "Um identificador único atribuído a um honeyfile",
+      "c": "Um sistema isca projetado para atrair potenciais atacantes",
+      "d": "Um identificador único projetado para rastrear atacantes"
+    },
+    "answers": [
+      "d"
+    ]
+  },
+  {
+    "index": 9,
+    "question": "Qual é a sigla do processo usado para avaliar o impacto de incidentes ou desastres nas funções críticas de negócios?",
+    "options": {
+      "a": "BPA",
+      "b": "BIA",
+      "c": "SLE",
+      "d": "BCP"
+    },
+    "answers": [
+      "b"
+    ]
+  },
+  {
+    "index": 10,
+    "question": "Qual é o nome do sistema hierárquico usado para criar, gerenciar, armazenar, distribuir e revogar certificados digitais?",
+    "options": {
+      "a": "PKI",
+      "b": "RA",
+      "c": "PKCS",
+      "d": "CA"
+    },
+    "answers": [
+      "a"
+    ]
+  },
+  {
+    "index": 11,
+    "question": "Qual das respostas abaixo descreve melhor as características de um par de chaves pública e privada?",
+    "options": {
+      "a": "Ambas as chaves são exemplos de chave simétrica",
+      "b": "Duas chaves que são idênticas",
+      "c": "Um par de chaves em que uma é usada para criptografar e a outra para descriptografar",
+      "d": "Ambas as chaves são exemplos de chave compartilhada"
+    },
+    "answers": [
+      "c"
+    ]
+  },
+  {
+    "index": 12,
+    "question": "Qual é o uso típico de uma chave pública?",
+    "options": {
+      "a": "Criptografia de dados",
+      "b": "Descriptografia de dados",
+      "c": "Autenticação de usuários/dispositivos",
+      "d": "Todas as opções acima"
+    },
+    "answers": [
+      "a"
+    ]
+  },
+  {
+    "index": 13,
+    "question": "Qual das respostas abaixo refere-se a um dispositivo de armazenamento de dados equipado com funcionalidades de criptografia a nível de hardware?",
+    "options": {
+      "a": "HSM",
+      "b": "TPM",
+      "c": "EFS",
+      "d": "SED"
+    },
+    "answers": [
+      "d"
+    ]
+  },
+  {
+    "index": 14,
+    "question": "Qual das respostas abaixo refere-se a uma tecnologia de software projetada para fornecer confidencialidade para um dispositivo de armazenamento de dados inteiro?",
+    "options": {
+      "a": "TPM",
+      "b": "FDE",
+      "c": "EFS",
+      "d": "HSM"
+    },
+    "answers": [
+      "b"
+    ]
+  },
+  {
+    "index": 15,
+    "question": "Um componente do MS Windows que permite a criptografia de arquivos individuais é chamado de:",
+    "options": {
+      "a": "SED",
+      "b": "EFS",
+      "c": "BitLocker",
+      "d": "FDE"
+    },
+    "answers": [
+      "b"
+    ]
+  },
+  {
+    "index": 16,
+    "question": "Qual é o nome de um protocolo de rede que protege o tráfego web via criptografia SSL/TLS?",
+    "options": {
+      "a": "SFTP",
+      "b": "HTTPS",
+      "c": "FTPS",
+      "d": "SNMP"
+    },
+    "answers": [
+      "b"
+    ]
+  },
+  {
+    "index": 17,
+    "question": "Qual das respostas abaixo refere-se a um método baseado em TLS, agora obsoleto, para transmissão segura de mensagens de e-mail?",
+    "options": {
+      "a": "S/MIME",
+      "b": "STARTTLS",
+      "c": "DKIM",
+      "d": "SMTPS"
+    },
+    "answers": [
+      "d"
+    ]
+  },
+  {
+    "index": 18,
+    "question": "Qual termo descreve um arquivo criptográfico criado por uma entidade ao solicitar um certificado digital a uma Autoridade Certificadora (AC)?",
+    "options": {
+      "a": "OID",
+      "b": "CSR",
+      "c": "DN",
+      "d": "CRL"
+    },
+    "answers": [
+      "b"
+    ]
+  },
+  {
+    "index": 19,
+    "question": "Qual termo descreve ciberataques sofisticados e prolongados, geralmente realizados por grupos organizados, como Estados-nação?",
+    "options": {
+      "a": "MitM",
+      "b": "XSRF",
+      "c": "APT",
+      "d": "DDoS"
+    },
+    "answers": [
+      "c"
+    ]
+  },
+  {
+    "index": 20,
+    "question": "Qual termo se refere a um vetor de ameaça geralmente associado à comunicação via SMS?",
+    "options": {
+      "a": "Phishing",
+      "b": "Vishing",
+      "c": "Pharming",
+      "d": "Smishing"
+    },
+    "answers": [
+      "d"
+    ]
+  },
+  {
+    "index": 21,
+    "question": "Qual das seguintes respostas refere-se a um protocolo obsoleto usado para transferência segura de dados na web?",
+    "options": {
+      "a": "SMTPS",
+      "b": "SRTP",
+      "c": "SHTTP",
+      "d": "S/MIME"
+    },
+    "answers": [
+      "c"
+    ]
+  }
+]

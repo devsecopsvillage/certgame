@@ -1,0 +1,222 @@
+[
+    {
+        "indice": 1,
+        "enunciado": "O que geralmente não é abordado nas verificações de vulnerabilidades essenciais para a segurança?",
+        "opcoes": {
+            "a": "Identificar hosts ativos na rede",
+            "b": "Identificar sistemas operacionais",
+            "c": "Identificar configurações incorretas",
+            "d": "Identificar malware em todos os hosts"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 2,
+        "enunciado": "Qual artefato geralmente detalha o produto, requisitos do cliente e garante alinhamento entre as partes interessadas?",
+        "opcoes": {
+            "a": "Declaração de Trabalho",
+            "b": "Caso de Negócio",
+            "c": "Organograma",
+            "d": "SLA"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 3,
+        "enunciado": "Adulteração de produtos na cadeia de suprimentos ocorre geralmente:",
+        "opcoes": {
+            "a": "Durante a fabricação, nas instalações do fornecedor",
+            "b": "Após a fabricação e antes de chegar ao consumidor final",
+            "c": "Após o produto chegar ao consumidor final",
+            "d": "Após o produto ser conectado à internet pela primeira vez"
+        },
+        "resposta": "b"
+    },
+    {
+        "indice": 4,
+        "enunciado": "Qual metodologia para desenvolvimento de arquiteturas de cibersegurança e segurança da informação orientadas para o risco é amplamente utilizada?",
+        "opcoes": {
+            "a": "SABSA",
+            "b": "PCI DSS",
+            "c": "FedRAMP",
+            "d": "COBIT"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 5,
+        "enunciado": "Qual opção melhor caracteriza o ato de criar e vender réplicas falsas ou não autorizadas de produtos em um mercado movimentado?",
+        "opcoes": {
+            "a": "Malware",
+            "b": "Adulteração de Produto",
+            "c": "Falsificação",
+            "d": "Implante"
+        },
+        "resposta": "c"
+    },
+    {
+        "indice": 6,
+        "enunciado": "Qual opção melhor descreve como um indivíduo ou sistema afirma sua identidade na rede corporativa?",
+        "opcoes": {
+            "a": "Responsabilização",
+            "b": "Nomeação de Usuário",
+            "c": "Autorização",
+            "d": "Identificação"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 7,
+        "enunciado": "Para qual tipo de equipamento um extintor de incêndio de CO2 é mais adequado?",
+        "opcoes": {
+            "a": "Madeira",
+            "b": "Nenhum deles",
+            "c": "Metais",
+            "d": "Equipamento Elétrico"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 8,
+        "enunciado": "Quais são as possíveis desvantagens do Monitoramento de Usuários Reais (RUM) em relação às transações sintéticas?",
+        "opcoes": {
+            "a": "RUM e transações sintéticas são a mesma coisa",
+            "b": "Pode ser mais caro",
+            "c": "Pode ser mais demorado",
+            "d": "Pode produzir dados ruidosos"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 9,
+        "enunciado": "Qual método de teste específico escolheria para avaliar vulnerabilidades em uma aplicação de software através de entradas aleatórias antes do lançamento?",
+        "opcoes": {
+            "a": "Teste de intrusão",
+            "b": "Transações sintéticas",
+            "c": "SAST",
+            "d": "Fuzz"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 10,
+        "enunciado": "Em qual nível do CMMI as organizações supervisionam projetos de forma eficaz e adotam medidas proativas?",
+        "opcoes": {
+            "a": "Definido",
+            "b": "Gerenciado",
+            "c": "Final",
+            "d": "Gerenciado quantitativamente"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 11,
+        "enunciado": "Qual modelo de segurança prioriza a confidencialidade da informação em vez da integridade?",
+        "opcoes": {
+            "a": "Biba",
+            "b": "STRIDE",
+            "c": "Clark Wilson",
+            "d": "Bell Lapadula"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 12,
+        "enunciado": "Qual das opções foi desenvolvida pelo Instituto de Ética da Computação (CEI)?",
+        "opcoes": {
+            "a": "Os 4 cânones da ética",
+            "b": "O Modelo STRIDE",
+            "c": "Os 10 Mandamentos da Ética da Computação",
+            "d": "O Código de Conduta do CEI"
+        },
+        "resposta": "c"
+    },
+    {
+        "indice": 13,
+        "enunciado": "Qual controle, se usado exclusivamente, é inadequado para garantir segurança segundo o princípio \"confiança, mas verifique\"?",
+        "opcoes": {
+            "a": "Controles Preventivos",
+            "b": "Controles Administrativos",
+            "c": "Nenhum deles",
+            "d": "Controles Técnicos"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 14,
+        "enunciado": "Em caso de falha de energia, qual posição assumem as portas configuradas no modo fail-safe?",
+        "opcoes": {
+            "a": "Depende da configuração",
+            "b": "Fechadas e destrancadas",
+            "c": "Abertas",
+            "d": "Fechadas e trancadas"
+        },
+        "resposta": "b"
+    },
+    {
+        "indice": 15,
+        "enunciado": "Qual opção é um guia para aplicar o Framework de Gestão de Riscos (RMF) em sistemas e organizações de informação?",
+        "opcoes": {
+            "a": "PCI DSS",
+            "b": "NIST SP 800-53",
+            "c": "NIST SP 800-37",
+            "d": "ISO 27003"
+        },
+        "resposta": "c"
+    },
+    {
+        "indice": 16,
+        "enunciado": "Qual seria sua principal preocupação diante do aumento do uso de dispositivos IoT na organização?",
+        "opcoes": {
+            "a": "Todas elas",
+            "b": "Implantação de patches",
+            "c": "Proteção dos dados em movimento",
+            "d": "Mecanismos de autenticação fracos"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 17,
+        "enunciado": "Quais são as funções do IPsec para garantir a segurança das comunicações em redes IP?",
+        "opcoes": {
+            "a": "Autenticação, Criptografia",
+            "b": "Autenticação, Registro",
+            "c": "Autenticação, Proteção da camada de enlace",
+            "d": "Hashing, Criptografia"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 18,
+        "enunciado": "Qual a função de uma autoridade de certificação em uma infraestrutura de chave pública (PKI)?",
+        "opcoes": {
+            "a": "Verificação da reputação do Registrador",
+            "b": "Emissão de chaves públicas",
+            "c": "Emissão de certificados",
+            "d": "Verificação do algoritmo de hashing"
+        },
+        "resposta": "c"
+    },
+    {
+        "indice": 19,
+        "enunciado": "Quais as responsabilidades do Diretor de Privacidade (CPO) e sua posição hierárquica?",
+        "opcoes": {
+            "a": "Proteção de PI; abaixo do CEO",
+            "b": "Proteção de PI; abaixo do CISO",
+            "c": "Proteção de PHI; posição depende do organograma",
+            "d": "Proteção de PI; posição depende do organograma"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 20,
+        "enunciado": "Quais documentos o CISO deve possuir antes de iniciar um teste de vulnerabilidade abrangente?",
+        "opcoes": {
+            "a": "Acordo escrito com a administração",
+            "b": "Acordo escrito com as autoridades",
+            "c": "Políticas e Procedimentos",
+            "d": "Código de Conduta"
+        },
+        "resposta": "a"
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "indice": 1,
+        "enunciado": "Como é chamado o teste realizado com conhecimento completo do código-fonte?",
+        "opcoes": {
+            "a": "Teste de caixa branca",
+            "b": "Teste de sistema",
+            "c": "Teste funcional",
+            "d": "Revisão de código"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 2,
+        "enunciado": "Qual a abordagem recomendada para monitorar mudanças e vulnerabilidades em componentes?",
+        "opcoes": {
+            "a": "Implementar IDS",
+            "b": "Realizar auditorias periódicas",
+            "c": "Escanear código-fonte regularmente",
+            "d": "Colaborar com o fornecedor para atualizações e patches"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 3,
+        "enunciado": "O estado atual de um produto de software é documentado através de qual entidade formal?",
+        "opcoes": {
+            "a": "Descrição do projeto",
+            "b": "Plano de teste",
+            "c": "Especificação",
+            "d": "Linha de base"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 4,
+        "enunciado": "A programação declarativa exige que as regras de segurança sejam o quê?",
+        "opcoes": {
+            "a": "Incorporadas ao próprio código",
+            "b": "Bem definidas e comumente reconhecidas",
+            "c": "Especificadas em ações definidas",
+            "d": "Incorporadas em um contêiner com regras configuradas na implantação"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 5,
+        "enunciado": "Para um processo SDL, as opções do compilador devem ser o quê?",
+        "opcoes": {
+            "a": "Predefinidas como parte do SDL",
+            "b": "Deixadas à discrição do desenvolvedor para permitir uma produção eficiente",
+            "c": "Não confiáveis, pois podem fornecer informações errôneas",
+            "d": "Limitadas a verificações chave para eficiência"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 6,
+        "enunciado": "A programação declarativa é a abordagem onde a programação especifica:",
+        "opcoes": {
+            "a": "As variáveis globais",
+            "b": "Os parâmetros",
+            "c": "O conteúdo do contêiner, mas não a lata",
+            "d": "O quê, não como"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 7,
+        "enunciado": "Qual NÃO é um tipo de processamento distribuído?",
+        "opcoes": {
+            "a": "Computação ubíqua e pervasiva",
+            "b": "Serviço web",
+            "c": "Orientado a serviços",
+            "d": "Cliente-servidor"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 8,
+        "enunciado": "A base legal para a propriedade de ideias criativas e abstratas, como software, é construída em torno de qual conceito?",
+        "opcoes": {
+            "a": "Garantias",
+            "b": "Direitos autorais",
+            "c": "Patentes",
+            "d": "Marcas registradas"
+        },
+        "resposta": "b"
+    },
+    {
+        "indice": 9,
+        "enunciado": "Por que é útil preparar casos de teste no início do processo de desenvolvimento?",
+        "opcoes": {
+            "a": "Deve-se fazer primeiro modelagem de ameaças",
+            "b": "Requer pensar completamente através da operação do aplicativo",
+            "c": "Ajuda a moldar a forma do design",
+            "d": "Ditam a abordagem de programação"
+        },
+        "resposta": "b"
+    },
+    {
+        "indice": 10,
+        "enunciado": "Na análise de segurança de softwares de terceiros, quais fatores garantem confiabilidade?",
+        "opcoes": {
+            "a": "Nível de suporte técnico",
+            "b": "Classificação em relatórios como a matriz de controles da nuvem",
+            "c": "Número de certificados obtidos",
+            "d": "Origem e reputação do fornecedor"
+        },
+        "resposta": "b"
+    },
+    {
+        "indice": 11,
+        "enunciado": "O conceito de criar um sistema que impeça um sujeito de negar uma ação anterior com um objeto é um exemplo de imposição de quê?",
+        "opcoes": {
+            "a": "Diversidade de defesa",
+            "b": "Separação de funções",
+            "c": "Não repúdio",
+            "d": "Defesa em profundidade"
+        },
+        "resposta": "c"
+    },
+    {
+        "indice": 12,
+        "enunciado": "Qual é a ciência dedicada a encontrar vulnerabilidades em mecanismos de proteção criptográfica?",
+        "opcoes": {
+            "a": "Criptoanálise",
+            "b": "Verificação de bit de paridade",
+            "c": "Filtragem de pacotes",
+            "d": "Princípio de Kerkhoff"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 13,
+        "enunciado": "A mediação completa é uma abordagem de segurança que inclui o quê?",
+        "opcoes": {
+            "a": "Proteção por defesa em profundidade",
+            "b": "Design de segurança que não pode ser contornado",
+            "c": "Listas de controle de acesso para impor regras",
+            "d": "Anéis de confiança para proteger dados"
+        },
+        "resposta": "b"
+    },
+    {
+        "indice": 14,
+        "enunciado": "O que é a CIA da segurança?",
+        "opcoes": {
+            "a": "Confidencialidade, integridade, disponibilidade",
+            "b": "Confidencialidade, integridade, autenticação",
+            "c": "Certificados, integridade, disponibilidade",
+            "d": "Confidencialidade, inspeção, autenticação"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 15,
+        "enunciado": "O controle de versão é melhor realizado por:",
+        "opcoes": {
+            "a": "Um processo automatizado e transparente",
+            "b": "Desenvolvedores assumindo responsabilidade",
+            "c": "Gerente de projeto ou líder garantindo consistência",
+            "d": "Processo manual estruturado com verificações"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 16,
+        "enunciado": "O princípio de segurança de design aberto concentra os esforços de segurança em quê?",
+        "opcoes": {
+            "a": "Produzir um mecanismo de segurança cuja força seja independente do seu design",
+            "b": "Componentes de software de código aberto",
+            "c": "Algoritmos proprietários",
+            "d": "Ocultando elementos-chave (segurança por obscuridade)"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 17,
+        "enunciado": "Qual é a decisão de design principal para a equipe de desenvolvimento ao especificar o nível de proteção para garantir a segurança desejada dos dados?",
+        "opcoes": {
+            "a": "Resiliência do software",
+            "b": "Confidencialidade, integridade e disponibilidade",
+            "c": "Detecção e correção de erros",
+            "d": "Autenticação e não repúdio"
+        },
+        "resposta": "b"
+    },
+    {
+        "indice": 18,
+        "enunciado": "A gestão de risco da cadeia de suprimentos é facilitada principalmente por uma documentação detalhada e completa de quais aspectos?",
+        "opcoes": {
+            "a": "A árvore de componentes",
+            "b": "Testes propostos",
+            "c": "Probabilidade de risco",
+            "d": "A árvore de ataque"
+        },
+        "resposta": "a"
+    },
+    {
+        "indice": 19,
+        "enunciado": "O que inicia o controle de mudanças?",
+        "opcoes": {
+            "a": "A identificação de um defeito",
+            "b": "A necessidade de melhoria do cliente",
+            "c": "A identificação de uma ameaça",
+            "d": "A submissão de uma solicitação de mudança"
+        },
+        "resposta": "d"
+    },
+    {
+        "indice": 20,
+        "enunciado": "A gestão de risco da cadeia de suprimentos envolve as comunidades de confiança: cliente, fornecedor e?",
+        "opcoes": {
+            "a": "Testador",
+            "b": "Gerente",
+            "c": "Programador",
+            "d": "Integrador"
+        },
+        "resposta": "d"
+    }
+]

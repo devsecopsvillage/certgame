@@ -1,0 +1,330 @@
+{
+    "indice": 1,
+    "enunciado": "Qual o comando apropriado para copiar todos os arquivos e diretórios no HOME para outro dispositivo?",
+    "opcoes": {
+        "a": "mvdir",
+        "b": "cp",
+        "c": "mv",
+        "d": "cpio"
+    },
+    "resposta": "d"
+},
+{
+    "indice": 2,
+    "enunciado": "Qual o arquivo que informa quais os IRQs usados por diferentes dispositivos de hardware?",
+    "opcoes": {
+        "a": "/proc/irqs",
+        "b": "/proc/int",
+        "c": "/proc/irq",
+        "d": "/proc/interrupts"
+    },
+    "resposta": "d"
+},
+{
+    "indice": 3,
+    "enunciado": "Qual o arquivo no /proc que informa os parâmetros passados ao Kernel durante o processo de boot?",
+    "opcoes": {
+        "a": "/proc/apm",
+        "b": "/proc/stat",
+        "c": "/proc/kmsg",
+        "d": "/proc/cmdline"
+    },
+    "resposta": "d"
+},
+{
+    "indice": 4,
+    "enunciado": "Qual o programa que interpreta suas ações e comandos no sistema operacional?",
+    "opcoes": {
+        "a": "Command",
+        "b": "Application",
+        "c": "Shell",
+        "d": "Utility"
+    },
+    "resposta": "c"
+},
+{
+    "indice": 5,
+    "enunciado": "Quais comandos exibem o estado de processos em um sistema Linux?",
+    "opcoes": {
+        "a": "ps e df",
+        "b": "ls e df",
+        "c": "ps e top",
+        "d": "df e top"
+    },
+    "resposta": "c"
+},
+{
+    "indice": 6,
+    "enunciado": "Qual o comando utilizado para criar uma partição de swap?",
+    "opcoes": {
+        "a": "mkswap",
+        "b": "mkfs -t swap",
+        "c": "swapon",
+        "d": "initswap"
+    },
+    "resposta": "a"
+},
+{
+    "indice": 7,
+    "enunciado": "Qual arquivo informa as partições do sistema?",
+    "opcoes": {
+        "a": "/proc/cpuinfo",
+        "b": "etc/fstab",
+        "c": "/proc/partitions",
+        "d": "/etc/partitions"
+    },
+    "resposta": "c"
+},
+{
+    "indice": 8,
+    "enunciado": "Como você poderia remover um diretório cheio?",
+    "opcoes": {
+        "a": "rm -f /diretorio",
+        "b": "deltree /diretorio",
+        "c": "rmdir /diretorio",
+        "d": "rm -r /diretorio"
+    },
+    "resposta": "d"
+},
+{
+    "indice": 9,
+    "enunciado": "Qual é o arquivo de log principal do sistema?",
+    "opcoes": {
+        "a": "/var/log/messages",
+        "b": "/var/log/logfile",
+        "c": "/var/log/msg",
+        "d": "/var/log/system.log"
+    },
+    "resposta": "a"
+},
+{
+    "indice": 10,
+    "enunciado": "Qual comando copiará toda a árvore de diretórios, incluindo subdiretórios, de /home/user para /tmp?",
+    "opcoes": {
+        "a": "cp /home/user /tmp",
+        "b": "cp -r /home/user /tmp",
+        "c": "mv -cr /home/user /tmp",
+        "d": "cp -a //home/user /tmp"
+    },
+    "resposta": "b"
+},
+{
+    "indice": 11,
+    "enunciado": "Qual expressão regular pode filtrar as palavras \"Linux\" e \"linux\", mas não \"linux.com\" e \"TurboLinux\"?",
+    "opcoes": {
+        "a": "[L/linux]",
+        "b": "[Ll]inux",
+        "c": "\\L\\linux",
+        "d": "[Ll]inux?"
+    },
+    "resposta": "b"
+},
+{
+    "indice": 12,
+    "enunciado": "Qual comando é usado para exibir as últimas linhas do arquivo texto arquivo1.txt?",
+    "opcoes": {
+        "a": "tail -n 1 arquivo1.txt",
+        "b": "head -b arquivo1.txt",
+        "c": "tail arquivo1.txt",
+        "d": "head --bottom arquivo1.txt"
+    },
+    "resposta": "c"
+},
+{
+    "indice": 13,
+    "enunciado": "Como definir o editor padrão como \"vi\" para todas as sessões?",
+    "opcoes": {
+        "a": "Alterar o arquivo /etc/profile",
+        "b": "Alterar o arquivo ~/.inputrc",
+        "c": "Alterar o arquivo /etc/inputrc",
+        "d": "Alterar o arquivo ~/.profile"
+    },
+    "resposta": "b"
+},
+{
+    "indice": 14,
+    "enunciado": "Que variável ambiental indica o caminho do diretório HOME?",
+    "opcoes": {
+        "a": "BASH_ENV",
+        "b": "HOME",
+        "c": "BLENDERDIR",
+        "d": "PWD"
+    },
+    "resposta": "b"
+},
+{
+    "indice": 15,
+    "enunciado": "Que programa pode ser usado para garantir que os arquivos de log não cresçam indefinidamente?",
+    "opcoes": {
+        "a": "loglimit",
+        "b": "logcheck",
+        "c": "logrotate",
+        "d": "syslogd"
+    },
+    "resposta": "c"
+},
+{
+    "indice": 16,
+    "enunciado": "Qual comando você usaria para determinar qual shell está em uso?",
+    "opcoes": {
+        "a": "echo SHELL",
+        "b": "echo $SHELL",
+        "c": "echo $MYSHEL",
+        "d": "shell"
+    },
+    "resposta": "b"
+},
+{
+    "indice": 17,
+    "enunciado": "Qual comando monta um CD-ROM contendo uma distribuição de Linux, sem depender de arquivos de configuração?",
+    "opcoes": {
+        "a": "mount /dev/cdrom /dev/hdc",
+        "b": "mount -t iso9660 /dev/cdrom /mnt/cdrom",
+        "c": "mount -f linux /dev/hdc /mnt/cdrom",
+        "d": "mount -t iso9660 /mnt/cdrom /dev/cdrom",
+    },
+    "resposta": "b"
+},
+{
+    "indice": 18,
+    "enunciado": "O que o comando umask 027 configura como permissão padrão para criação de novos arquivos?",
+    "opcoes": {
+        "a": "640",
+        "b": "750",
+        "c": "1027",
+        "d": "1640"
+    },
+    "resposta": "a"
+},
+{
+    "indice": 19,
+    "enunciado": "Como trazer o programa MyScript para o primeiro plano após ele ser parado?",
+    "opcoes": {
+        "a": "fg %2",
+        "b": "fg MyScript",
+        "c": "ctrl-z",
+        "d": "ctrl-c"
+    },
+    "resposta": "a"
+},
+{
+    "indice": 20,
+    "enunciado": "Qual comando exibe as últimas linhas do arquivo texto arquivo1.txt?",
+    "opcoes": {
+        "a": "tail -n 1 arquivo1.txt",
+        "b": "head -b arquivo1.txt",
+        "c": "tail arquivo1.txt",
+        "d": "head --bottom arquivo1.txt"
+    },
+    "resposta": "c"
+},
+{
+    "indice": 21,
+    "enunciado": "Como definir o vi como editor padrão para todas as sessões no sistema Linux?",
+    "opcoes": {
+        "a": "Alterar o arquivo ~/.inputrc",
+        "b": "Alterar o arquivo /etc/profile",
+        "c": "Alterar o arquivo /etc/inputrc",
+        "d": "Alterar o arquivo ~/.profile"
+    },
+    "resposta": "a"
+},
+{
+    "indice": 22,
+    "enunciado": "Como exibir todas as linhas de texto do arquivo que não estão vazias?",
+    "opcoes": {
+        "a": "grep -v ^$ arquivo",
+        "b": "grep \".*\" arquivo",
+        "c": "grep -v \"[]\" arquivo",
+        "d": "grep -v ^\\r\\n arquivo"
+    },
+    "resposta": "a"
+},
+{
+    "indice": 23,
+    "enunciado": "Quantos dispositivos de IDE podem ser instalados simultaneamente em um sistema Intel típico?",
+    "opcoes": {
+        "a": "3",
+        "b": "5",
+        "c": "2",
+        "d": "4"
+    },
+    "resposta": "d"
+},
+{
+    "indice": 24,
+    "enunciado": "Qual das opções a seguir cria uma variável de ambiente VAR1 que possa ser utilizada em um processo bash filho?",
+    "opcoes": {
+        "a": "VAR1=\"fail\"; export VAR1",
+        "b": "xport VAR1 \\ VAR1=\"fail\"",
+        "c": "VAR1=\"fail\"",
+        "d": "et VAR1=\"fail\" ; enable VAR1",
+    },
+    "resposta": "a"
+},
+{
+    "indice": 25,
+    "enunciado": "Qual comando pode exibir os conteúdos de um arquivo binário em uma forma de hexadecimal legível?",
+    "opcoes": {
+        "a": "od",
+        "b": "hd",
+        "c": "Xd",
+        "d": "dump"
+    },
+    "resposta": "a"
+},
+{
+    "indice": 26,
+    "enunciado": "Qual comando copiaria a árvore de diretório inteira, incluindo todos os subdiretórios abaixo de /home/user para /tmp?",
+    "opcoes": {
+        "a": "cp -r /home/user /tmp",
+        "b": "mv -cr /home/user /tmp",
+        "c": "cp -a //home/user /tmp",
+        "d": "xcp -s /home/user /tmp"
+    },
+    "resposta": "a"
+},
+{
+    "indice": 27,
+    "enunciado": "Qual comando você usaria para verificar a versão do kernel no diretório /usr/src/linux?",
+    "opcoes": {
+        "a": "head -4 /usr/src/linux/Makefile",
+        "b": "Look in the README",
+        "c": "cat /usr/src/linux/.version",
+        "d": "cat /usr/src/linux/VERSION"
+    },
+    "resposta": "a"
+},
+{
+    "indice": 28,
+    "enunciado": "Qual comando exibirá as últimas linhas do arquivo de log de sistema?",
+    "opcoes": {
+        "a": "tail -f /var/log/messages",
+        "b": "head -f /var/log/messages",
+        "c": "grep -f /var/log/messages",
+        "d": "log /var/log/messages"
+    },
+    "resposta": "a"
+},
+{
+    "indice": 29,
+    "enunciado": "Como você pode definir o comando padrão para exibir as últimas linhas de um arquivo no shell bash?",
+    "opcoes": {
+        "a": "tail -n",
+        "b": "last -v",
+        "c": "lastlines",
+        "d": "lines -f"
+    },
+    "resposta": "a"
+},
+{
+    "indice": 30,
+    "enunciado": "Qual arquivo diz em qual frequência o processador está funcionando?",
+    "opcoes": {
+        "a": "/proc/bogomips",
+        "b": "/proc/cpuinfo",
+        "c": "/proc/mhz",
+        "d": "/proc/speed"
+    },
+    "resposta": "b"
+},
