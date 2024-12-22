@@ -11,12 +11,12 @@ Abaixo você encontrará os links mais importantes para iniciar sua partida em c
 
 [2. Tabuleiro](tabuleiro.png)
 
-[3. Perguntas](perguntas/cartinhas)
+[3. Perguntas](cartinhas)
 
 ## Impressão
 ### Tabuleiro
 Impresso em papel A3 couchê 300, colorido, a laser, finalizado com laminação brilhante.
 ### Cartas
-Impresso em papel A4 alta alvura 150, colorido, a jato de tinta, finalizado com laminação fosca.
+Impresso em papel A4 alta alvura 150, colorido, a jato de tinta, finalizado com laminação fosca. 9 cartas por folha, observando encaixe frente e verso.
 ### Peças
 Impressas em 3d, com 4 kits de cores diferentes, compostos de: 1 pino de locomoção e 5 peças sequencialmente numeradas.
