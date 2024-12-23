@@ -22,6 +22,6 @@ Impressas em 3d, com 4 kits de cores diferentes, compostos de: 1 pino de locomo�
 ## Conteúdo
 
 - [Regras](regras.md)
-- [Tabuleiro](tabuleiro.png)=
+- [Tabuleiro](tabuleiro.png)
 - 3D está contido na pasta 3D
 - As cartas para impressão estão em Cartas\PDFs
