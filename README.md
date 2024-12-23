@@ -24,12 +24,6 @@ Impressas em 3d, com 4 kits de cores diferentes, compostos de: 1 pino de locomo�
 [Regras](regras.md)
 
 [Tabuleiro](tabuleiro.png)
-[Peão](.\3d\peão.stl)
-[Fichas](.\3d\Ficha-individual.stl)
 
-[Junior 01](.\Cartas\PDFs\junior_1.pdf)
-[Junior 02](.\Cartas\PDFs\junior_2.pdf)
-[Pleno 01](.\Cartas\PDFs\pleno_1.pdf)
-[Pleno 02](.\Cartas\PDFs\pleno_2.pdf)
-[Senior 01](.\Cartas\PDFs\senior_1.pdf)
-[Senior 02](.\Cartas\PDFs\senior_2.pdf)
+- 3D está contido na pasta 3D
+- As cartas para impressão estão em Cartas\PDFs
