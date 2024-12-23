@@ -13,7 +13,7 @@ Impresso em papel A3 couchê 300, colorido, a laser, finalizado com laminação 
 
 ### Cartas
 
-Impresso em papel A4 alta alvura 150, colorido, a jato de tinta, finalizado com laminação fosca. 9 cartas por folha, observando encaixe frente e verso.
+Impresso em papel A4 alta alvura 150, colorido, a jato de tinta, finalizado com laminação fosca. 9 cartas por folha, observando encaixe frente e verso (diretórios "Fundos" e "PDFs" em "Cartas").
 
 ### Peças
 
@@ -23,5 +23,5 @@ Impressas em 3d, com 4 kits de cores diferentes, compostos de: 1 pino de locomo�
 
 - [Regras](regras.md)
 - [Tabuleiro](tabuleiro.png)
-- 3D está contido na pasta 3D
-- As cartas para impressão estão em Cartas\PDFs
+- [Modelo peças 3d](3d)
+- [Cartinhas](Cartas)
