@@ -22,6 +22,6 @@ Impressas em 3d, com 4 kits de cores diferentes, compostos de: 1 pino de locomo�
 ## Conteúdo
 
 - [Regras](regras.md)
-- [Tabuleiro](tabuleiro.png)
+- [Tabuleiro](tabuleiro-grafica.png)
 - [Modelo peças 3d](3d)
 - [Cartinhas](Cartas)
