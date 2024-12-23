@@ -25,7 +25,7 @@ Impressas em 3d, com 4 kits de cores diferentes, compostos de: 1 pino de locomo�
 
 [Tabuleiro](tabuleiro.png)
 [Peão](3d\peão.stl)
-[Fichas](3d\Ficha individual.stl)
+[Fichas](3d\Ficha-individual.stl)
 
 [Junior 01](Cartas\PDFs\junior_1.pdf)
 [Junior 02](Cartas\PDFs\junior_2.pdf)
