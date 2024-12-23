@@ -1,9 +1,13 @@
-# Certgame - Jogo de Certificações em Infosec
+# CertGame - Jogo de Certificações em Infosec
 
 Bem-vindos,
 
 Esse repositório foi criado para agregar e gerenciar os arquivos necessários para jogar nosso jogo.
-Abaixo você encontrará os links mais importantes para iniciar sua partida em casa, além de orientações para impressão na qualidade que idealizamos o projeto original.
+Abaixo você encontrará os links mais importantes para iniciar sua partida em casa, além de orientações para impressão na qualidade em que idealizamos o projeto original.
+
+<div align="center">
+  <img src="https://github.com/devsecopsvillage/certgame/blob/main/partida-h2hc-2024.jpg">
+</div>
 
 ## Impressão
 
