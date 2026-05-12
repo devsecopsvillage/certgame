@@ -1,0 +1,33 @@
+{
+    "background": {
+        "background_card": "Fundos/frente_card.jpg",
+        "background_jr1": "Fundos/junior-1.png",
+        "background_jr2": "Fundos/junior-2.png",
+        "background_pl1": "Fundos/pleno-1.png",
+        "background_pl2": "Fundos/pleno-2.png",
+        "background_sr1": "Fundos/senior-1.png",
+        "background_sr2": "Fundos/senior-2.png"
+    },
+    "questions": {
+        "jr_1": "JSON/01-LPI.json",
+        "jr_2": "JSON/02-networkp.json",
+        "pl_1": "JSON/03-CEH.json",
+        "pl_2": "JSON/04-securityp.json",
+        "sr_1": "JSON/06-CISSP.json",
+        "sr_2": "JSON/07-CSSLP.json"
+    },
+    "size": {
+        "width": 635,
+        "height": 889
+    },
+    "font": {
+        "name": "Consolas",
+        "size": 6,
+        "color": "#000000",
+        "margen_top": 140,
+        "margen_down": 170,
+        "margen_left": 120,
+        "margen_right": 120,
+        "alignment": "justify"
+    }
+}
