@@ -75,14 +75,17 @@ def generate_cards():
     card_height = (float(config['size']['height']) / 10.0) * mm
 
     # 3. Cálculo de Escala de Margens
-    # Obtém as dimensões em pixels da imagem de fundo para mapear as margens corretamente
-    img_w_px, img_h_px = 965.0, 1282.0 # Fallback como float
-    bg_front_path = config['background']['background_card']
+    # Fallback para dimensões caso não consiga ler a imagem
+    img_w_px, img_h_px = 965.0, 1282.0 
     
-    if os.path.exists(bg_front_path):
+    # Tenta obter dimensões de qualquer imagem de fundo disponível para cálculo de proporção
+    available_fronts = list(config['backgrounds']['front'].values())
+    bg_sample = available_fronts[0] if available_fronts else None
+    
+    if bg_sample and os.path.exists(bg_sample):
         try:
             from PIL import Image
-            with Image.open(bg_front_path) as img:
+            with Image.open(bg_sample) as img:
                 w, h = img.size
                 img_w_px, img_h_px = float(w), float(h)
         except Exception as e:
@@ -93,7 +96,6 @@ def generate_cards():
     ratio_y = card_height / img_h_px
 
     # Converte as margens de pixels (do config.json) para pontos do PDF
-    # Tratando todos os valores como float
     m_top = float(config['font']['margen_top']) * ratio_y
     m_down = float(config['font']['margen_down']) * ratio_y
     m_left = float(config['font']['margen_left']) * ratio_x
@@ -158,13 +160,13 @@ def generate_cards():
         with open(json_path, 'r', encoding='utf-8') as f:
             questions = json.load(f)
             
-        bg_back_key = f"background_{group_id.replace('_', '')}"
-        bg_back_path = config['background'].get(bg_back_key)
+        # Busca backgrounds específicos para o grupo
+        bg_front_path = config['backgrounds']['front'].get(group_id)
+        bg_back_path = config['backgrounds']['back'].get(group_id)
 
         for q in questions:
             # --- RENDERIZAÇÃO DA FRENTE (Esquerda) ---
-            # O fundo da frente (background_card) é mantido sempre, conforme solicitado.
-            if os.path.exists(bg_front_path):
+            if bg_front_path and os.path.exists(bg_front_path):
                 pdf_canvas.drawImage(bg_front_path, 0, 0, width=card_width, height=card_height)
             else:
                 print(f"AVISO: Fundo da frente não encontrado: {bg_front_path}")
@@ -200,7 +202,6 @@ def generate_cards():
             text_frame.addFromList(story, pdf_canvas)
             
             # --- RENDERIZAÇÃO DO VERSO (Direita) ---
-            # A geração do verso é controlada pela propriedade 'gerar_verso' no config.json.
             if gerar_verso and bg_back_path and os.path.exists(bg_back_path):
                 pdf_canvas.drawImage(bg_back_path, card_width, 0, width=card_width, height=card_height)
             

@@ -1,13 +1,22 @@
 {
     "gerar_verso": false,
-    "background": {
-        "background_card": "Fundos/frente_card.png",
-        "background_jr1": "Fundos/junior-1.png",
-        "background_jr2": "Fundos/junior-2.png",
-        "background_pl1": "Fundos/pleno-1.png",
-        "background_pl2": "Fundos/pleno-2.png",
-        "background_sr1": "Fundos/senior-1.png",
-        "background_sr2": "Fundos/senior-2.png"
+    "backgrounds": {
+        "front": {
+            "jr_1": "Fundos/junior-frente.png",
+            "jr_2": "Fundos/junior-frente.png",
+            "pl_1": "Fundos/pleno-frente.png",
+            "pl_2": "Fundos/pleno-frente.png",
+            "sr_1": "Fundos/senior-frente.png",
+            "sr_2": "Fundos/senior-frente.png"
+        },
+        "back": {
+            "jr_1": "Fundos/junior-1.png",
+            "jr_2": "Fundos/junior-2.png",
+            "pl_1": "Fundos/pleno-1.png",
+            "pl_2": "Fundos/pleno-2.png",
+            "sr_1": "Fundos/senior-1.png",
+            "sr_2": "Fundos/senior-2.png"
+        }
     },
     "questions": {
         "jr_1": "JSON/01-LPI.json",
