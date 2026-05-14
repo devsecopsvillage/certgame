@@ -1,6 +1,7 @@
 {
+    "gerar_verso": false,
     "background": {
-        "background_card": "Fundos/frente_card.jpg",
+        "background_card": "Fundos/frente_card.png",
         "background_jr1": "Fundos/junior-1.png",
         "background_jr2": "Fundos/junior-2.png",
         "background_pl1": "Fundos/pleno-1.png",
@@ -22,12 +23,12 @@
     },
     "font": {
         "name": "Consolas",
-        "size": 6,
+        "size": 8,
         "color": "#000000",
         "margen_top": 140,
-        "margen_down": 170,
-        "margen_left": 120,
-        "margen_right": 120,
+        "margen_down": 85,
+        "margen_left": 60,
+        "margen_right": 60,
         "alignment": "justify"
     }
 }

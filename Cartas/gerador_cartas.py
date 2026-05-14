@@ -141,6 +141,8 @@ def generate_cards():
     if not os.path.exists('PDFs'):
         os.makedirs('PDFs')
 
+    gerar_verso = config.get('gerar_verso', True)
+
     for group_id, json_path in config['questions'].items():
         if not os.path.exists(json_path):
             print(f"AVISO: Arquivo {json_path} ignorado (não encontrado).")
@@ -149,8 +151,9 @@ def generate_cards():
         output_file = f"PDFs/{group_id}.pdf"
         print(f"Processando Baralho: {output_file}...")
         
-        # O PDF é criado com o dobro da largura (Frente e Verso na mesma página)
-        pdf_canvas = canvas.Canvas(output_file, pagesize=(card_width * 2, card_height))
+        # Define a largura do PDF baseado na configuração de verso
+        canvas_width = card_width * 2 if gerar_verso else card_width
+        pdf_canvas = canvas.Canvas(output_file, pagesize=(canvas_width, card_height))
         
         with open(json_path, 'r', encoding='utf-8') as f:
             questions = json.load(f)
@@ -160,18 +163,21 @@ def generate_cards():
 
         for q in questions:
             # --- RENDERIZAÇÃO DA FRENTE (Esquerda) ---
+            # O fundo da frente (background_card) é mantido sempre, conforme solicitado.
             if os.path.exists(bg_front_path):
                 pdf_canvas.drawImage(bg_front_path, 0, 0, width=card_width, height=card_height)
+            else:
+                print(f"AVISO: Fundo da frente não encontrado: {bg_front_path}")
             
-            # Desenha fundo branco sólido para o texto
+            # O retângulo que mantém o texto agora é transparente (fill=0)
             pdf_canvas.setFillColorRGB(1, 1, 1) 
             rect_x, rect_y = float(m_left), float(m_down)
             rect_w = float(card_width - m_left - m_right)
             rect_h = float(card_height - m_top - m_down)
-            pdf_canvas.rect(rect_x, rect_y, rect_w, rect_h, fill=1, stroke=0)
+            pdf_canvas.rect(rect_x, rect_y, rect_w, rect_h, fill=0, stroke=0)
 
-            # Define área útil de texto com padding interno
-            padding = 10.0
+            # Define área útil de texto com padding interno reduzido
+            padding = 5.0
             f_x, f_y = rect_x + padding, rect_y + padding
             f_w, f_h = rect_w - (2 * padding), rect_h - (2 * padding)
             
@@ -194,7 +200,8 @@ def generate_cards():
             text_frame.addFromList(story, pdf_canvas)
             
             # --- RENDERIZAÇÃO DO VERSO (Direita) ---
-            if bg_back_path and os.path.exists(bg_back_path):
+            # A geração do verso é controlada pela propriedade 'gerar_verso' no config.json.
+            if gerar_verso and bg_back_path and os.path.exists(bg_back_path):
                 pdf_canvas.drawImage(bg_back_path, card_width, 0, width=card_width, height=card_height)
             
             pdf_canvas.showPage()
